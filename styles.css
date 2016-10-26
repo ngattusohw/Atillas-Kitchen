@@ -1,0 +1,11 @@
+body {
+     background-image: url("tile.jpg");
+     font-face="Verdana";
+}
+
+table {
+     align: "center";
+     width: 70%;
+     border: 2px solid black;
+     background-color: white;
+}
