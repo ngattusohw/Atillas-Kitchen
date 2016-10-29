@@ -12,13 +12,14 @@ table {
 
 #bullets li {
     list-style-type: none;
-    margin: 80px 0;
+    margin: 80px 0px;
     text-align: center;
     border-bottom: 1px solid black;
     border-bottom-color: rgb(201, 207, 216);
 }
 
-a:link, a:hover, a:visited, a:active {
+
+a:link,a:visited, a:hover, a:active {
     text-decoration: none;
     color: blue;
 
