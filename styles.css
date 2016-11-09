@@ -4,10 +4,19 @@ body {
 }
 
 table {
-     align: "center";
+
      width: 70%;
      border: 2px solid black;
      background-color: white;
+
+}
+
+th {
+    font-size: 200%; 
+}
+#tab { 
+    width: 70%;
+    border: 2px solid black;
 }
 
 #bullets li {
