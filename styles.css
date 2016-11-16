@@ -35,7 +35,7 @@ a:link,a:visited, a:hover, a:active {
 
 }
 
-/*styling for the form: NEED TO FIX FEEDBACK BOX; */
+/*styling for the form */
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -56,20 +56,10 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-/*
-input[type=summary], select{
-    width: 100%;
-    height: 150px;
-    text-align: none;
-    padding: 8px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}*/
+
 textarea, select{
 
-     width: 100%;
+    width: 100%;
     height: 150px;
     text-align: none;
     padding: 8px 20px;
