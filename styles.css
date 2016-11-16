@@ -48,6 +48,16 @@ a:link,a:visited, a:hover, a:active {
     color: blue;
 
 }
+/* styling for search box */
+input[type=search], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 0px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
 /*styling for the form */
 input[type=text], select {
