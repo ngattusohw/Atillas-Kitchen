@@ -1,10 +1,8 @@
 body {
      background-image: url("tile.jpg");
-     font-family: "Verdana";
 }
 
 table {
-     align: center;
      width: 70%;
      border: 2px solid black;
      border-collapse: collapse;
@@ -30,6 +28,7 @@ h1, h2, h3 {
 th {
     font-size: 200%;
 }
+
 #tab { 
     width: 70%;
     border: 2px solid black;
