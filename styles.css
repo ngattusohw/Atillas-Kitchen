@@ -4,12 +4,28 @@ body {
 }
 
 table {
-
+     align: center;
      width: 70%;
      border: 2px solid black;
-     background-color: white;
-
+     border-collapse: collapse;
+     background-color: #D6EAF8;
+     
+     letter-spacing: .25px;
+     line-height: 1.5;
+     font-family: "Verdana";
+     font-size: 15px;
+     color: #555555;
 }
+
+table, th, td {
+     border: 1px solid black;
+}
+
+
+h1, h2, h3 {
+     color: #A569BD;
+}
+
 
 th {
     font-size: 200%;
