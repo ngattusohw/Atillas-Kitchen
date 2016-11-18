@@ -44,8 +44,7 @@
       <td colspan="3">
          <h2>Contact Us!</h2>
          <p>Fill out the following contact form in order to request specific
-            recipes or share any comments, questions, or concerns.<br><br><br>
-            ---***Form to be Added***--- </p>
+            recipes or share any comments, questions, or concerns.<br><br><br></p>
             <div>
   <form action="action_page.php" id="form">
     <label for="fname">First Name</label>
@@ -53,11 +52,17 @@
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname">
+    <br>
+    <label for "feedback">What Type of Feedback?</label>
+    <input type="radio" id="feedback" name="feedback" value="request">Recipe Request
+    <input type="radio" id="feedback" name="feedback" value="comment">Comment
+    <input type="radio" id="feedback" name="feedback" value="question">Question
+    <input type="radio" id="feedback" name="feedback" value="concern">Concern
+    <br><br>
+    <label for="summary">Message:</label>
+    <textarea name="summary" id="summary"></textarea>
 
-    <label for="summary">Feedback:</label>
-    
-  <textarea name="summary" id="summary"></textarea>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit"><input type="reset" value="Reset">
 
   </form>
 </div>
