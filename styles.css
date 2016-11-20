@@ -121,6 +121,19 @@ input[type=reset]:hover {
 
 /*form end*/
 
+.css{
+    margin:auto;
+}
+
+.csssize{
+    width:250px;
+    height: 500px;
+}
+
+.csstext{
+    text-align: center;
+}
+
 /*Andy's sandbox*/
 
 
