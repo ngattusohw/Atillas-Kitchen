@@ -1,14 +1,16 @@
 Contributions
 
-Nesad:
+Nesar:
 
-	created the html for the form (located in the contact.html) and inital css for the form
+	created the html for the form (located in the contact.html) and initial css for the form
+	helped with the css for search bar and main css
 
 Joe:
 
 
 	fixed issues with contact by adding more form elements
-	created inital css(colors, text decration,etc.)
+	created inital css(colors, text decoration,etc.)
+	fixed file name issues
 
 Andy:
 
