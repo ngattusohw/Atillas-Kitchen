@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+  <!-- I pledge my honor that I have abided by the 
+   Stevens Honor Code
+    Andy Chang, Joseph Bonnell, Michael Snajder, Nesar
+    Ahmed, Nicholas Gattuso -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="Cooking.ico">
+    <title>Attila's Kitchen</title>
+  </head>
+  <body>
+   
+    <table class="css"> <!-- html validation-->
+      <tr>
+        <th colspan="2">Attila's Kitchen</th>
+      </tr>
+      <tr>
+        <td class="csstext" colspan="2"> <!-- html validation-->
+          <a href="index.html">Home</a> || 
+          <a href="about.html">About</a> || 
+          <a href="contact.html">Contact</a> || 
+          <a href="safety.html">Safety Tips</a></td>
+        </tr>
+        <tr>
+          <td class="csssize"> <!-- html validation-->
+
+           <input type="search" name="search" placeholder="search">
+
+           <h3 class="csstext"> Food Links: </h3>
+           <ul id=bullets >
+            <li><a href="meat.html">Meat</a></li>
+            <li><a href="seafood.html">Seafood</a></li>
+            <li><a href="dairy.html">Dairy</a></li>
+            <li><a href="veggies.html">Vegtables</a></li>
+          </ul>
+
+
+          
+
+        </td>
+        <td> <!-- html validation-->
+         <h2>Contact Us!</h2>
+         <p>Fill out the following contact form in order to request specific
+          recipes or share any comments, questions, or concerns.<br><br><br></p>
+          <div>
+            <form action="response_page.html" id="form">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname">
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname">
+              <br>
+              <label>What Type of Feedback?</label> <!-- html validation-->
+              <input type="radio" id="recipe" name="recipe0" value="request">Recipe Request
+              <input type="radio" id="comment" name="comment0" value="comment">Comment
+              <input type="radio" id="question" name="question0" value="question">Question
+              <input type="radio" id="concern" name="concern0" value="concern">Concern
+              <br><br>
+              <label>Message:</label>
+              <textarea name="summary" id="summary"></textarea>
+
+              <input type="submit" value="Submit"><input type="reset" value="Reset">
+
+            </form>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="csstext" colspan="2"><footer> Copyright October 2016</footer></td>
+      </tr>
+    </table>
+  </body>
+  </html>
