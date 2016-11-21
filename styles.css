@@ -35,7 +35,9 @@ th {
     border: 2px solid black;
 }
 
-
+#smalltext{
+  font-size:10px;
+}
 
 #bullets li {
     list-style-type: none;
