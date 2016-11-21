@@ -143,7 +143,7 @@ input[type=reset]:hover {
 /*Andy's sandbox*/
 
 
-/*
+
 
 img{
     display:block;
@@ -151,6 +151,8 @@ img{
     width:600px;
     height:400px;
 }
+
+/*
 
 @media (min-width: 830px){ 
     -webkit-column-count: 1; 
@@ -173,7 +175,7 @@ img{
     }
 }
 
-
+*/
 
 .hidden{
     display:none;
@@ -227,4 +229,3 @@ img{
     background-color:#3e8e41;
 }
 
-*/
