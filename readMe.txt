@@ -10,6 +10,7 @@ Joe:
 
 
 	-fixed issues with contact by adding more form elements
+	-added the newspaper checkbox
 	-created inital css(colors, text decoration,etc.)
 	-fixed file name issues
 
@@ -19,7 +20,7 @@ Andy:
 	-fixed file extension errors
 	-created initial dropdown menu with css
 	-added additional css properties:
-		-image placement and size
+		-image placement and size properties
 		
 
 Nick:
