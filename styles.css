@@ -157,30 +157,27 @@ img{
     height:400px;
 }
 
-/*
+
 
 @media (min-width: 830px){ 
-    -webkit-column-count: 1; 
-    -moz-column-count: 1;
-    column-count: 1;
+
 }
 
 @media (max-width: 830px){
-    -webkit-column-count: 1; 
-    -moz-column-count: 1; 
-    column-count: 1;
+   img{
+        width: 200px;
+        height: 133px;
+   }
 }
 
+
 @media (max-width: 480px){
-    -webkit-column-count: 1; 
-    -moz-column-count: 1;
-    column-count: 1;
     img{
         display:none;
     }
 }
 
-*/
+
 
 .hidden{
     display:none;
