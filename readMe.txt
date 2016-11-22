@@ -18,7 +18,6 @@ Andy:
 
 	-streamlined the differences in all html files
 	-fixed file extension errors
-	-created initial dropdown menu with css
 	-added additional css properties:
 		-image placement and size properties
 		
