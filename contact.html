@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="Cooking.ico">
+    <script src="formResp.js"></script>
     <title>Attila's Kitchen</title>
   </head>
   <body>
@@ -43,10 +44,12 @@
         </td>
         <td> <!-- html validation-->
          <h2>Contact Us!</h2>
-         <p>Fill out the following contact form in order to request specific
-          recipes or share any comments, questions, or concerns.<br><br><br></p>
-          <div>
-            <form action="response_page.html" id="form">
+         <div id="replacer">
+           <p>Fill out the following contact form in order to request specific
+            recipes or share any comments, questions, or concerns.<br><br><br></p>
+          </div>
+          <div id = "placer" class="form">
+            <form id="form">
               <label for="name">Name</label>
               <input type="text" id="name" name="firstname" required>
 
@@ -64,10 +67,10 @@
               <p id="smalltext">(Allowing us to email you repeatedly for eternity unless you unsubscribe through our very tedious process of unsubscribing)</p>
               <label>Message:</label>
               <textarea name="summary" id="summary" required></textarea>
-
-              <input type="submit" value="Submit"><input type="reset" value="Reset">
-
+              <input type="reset" value="Reset">
+              
             </form>
+            <button value="Submit" class="submitStyle" onclick="callBack()">Submit</button>
           </div>
         </td>
       </tr>
