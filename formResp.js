@@ -16,9 +16,9 @@ function callBack(){
 	console.log(x.elements[6].checked);
 
 	if(x.elements[6].checked){
-		text = "You will be emailed at " + x.elements[1].value + " and you will recieve newsletter emails! :)";
+		text = "You will be emailed at " + x.elements[1].value + " and you will receive newsletter emails! :)";
 	}else{
-		text = "You will be emailed at " + x.elements[1].value + " and you will NOT recieve newsletter emails! :(";
+		text = "You will be emailed at " + x.elements[1].value + " and you will NOT receive newsletter emails! :(";
 	}
     
 
