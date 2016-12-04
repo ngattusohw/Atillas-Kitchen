@@ -11,10 +11,11 @@
          Ahmed, Nicholas Gattuso -->
 
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="gettingDates.js"></script>
   <link rel="shortcut icon" href="Cooking.ico" />
   <title>Attila's Kitchen</title>
  </head>
- <body >
+ <body onload="getThatDate()">
   
   <table class="css"> <!-- html validation-->
     <tr>
@@ -43,7 +44,7 @@
       </td>
 
       <td>
-      <h1> Food of the Day:</h1>
+      <h1 id="ofTheDay"> </h1>
         <h1>Curry Duck</h1>
         <img src="http://honest-food.net/wp-content/uploads/2013/02/thai-red-curry-duck.jpg" alt="Curry Duck">
         <h2>Ingredients</h2>
