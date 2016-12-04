@@ -7,10 +7,9 @@ function callBack(){
 	var x = document.getElementById("form");
     var name = x.elements[0].value;
 
-    //testing regex.. will implement later
-	var email = new RegExp("/\w+@\w+\.(com|net|org)/");
+	var r = /\w+@\w+\.(com|net|org)/;
 	var str = x.elements[1].value;
-	console.log(email.test(str));
+	console.log(r.test(str));
 
 	var text;
 	if(x.elements[6].checked){
