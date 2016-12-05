@@ -11,7 +11,7 @@ function callBack(){
 	}else{
 		
 
-		var r = /\w+@\w+\.(com|net|org)/;
+		var r = /\w+@\w+\.(com|net|org|edu)/;
 		var str = x.elements[1].value;
 		if(r.test(str)){
 			var text;
