@@ -7,7 +7,7 @@ function callBack(){
 	var x = document.getElementById("form");
 
 	if(x.elements[0].value == "" || x.elements[1].value == "" || x.elements[7].value== ""){
-		alert("Please fill out all field before submitting!");
+		alert("Please fill out all fields before submitting!");
 	}else{
 		
 
