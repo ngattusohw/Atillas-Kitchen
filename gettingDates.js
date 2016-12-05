@@ -15,16 +15,4 @@ function getThatDate(){
 
   today = mm+'/'+dd+'/'+yyyy;
   document.getElementById('ofTheDay').innerHTML="Food of the Day for " + today +": ";
-};
-
-window.onload = function () {
-    document.getElementById('searcher').onkeypress = function(e){
-    if (!e) e = window.event;
-    var keyCode = e.keyCode || e.which;
-    if (keyCode == '13'){
-      console.log("Enter Pressed");
-      location.href = document.getElementById('searcher').value + ".html";
-    }
-  }
-};
-
+}
